@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=League+Gothic&family=Stick+No+Bills:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(201, 190, 190);
+    width: 135px;
+    height: 100pc;
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 90vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar nav {
+    padding: 24px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 15px;
+    padding: 32px 0px;
+    
+
+}
+.sidebar nav li a {
+text-decoration: none;
+color: black;
+}
+
+
+
+.sidebar{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}

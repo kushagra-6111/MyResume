@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&family=League+Gothic&family=Stick+No+Bills:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(201, 190, 190);
+    /*width: 135px;*/
+    height: 100pc;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.main {
+    /*background-color: yellow;*/
+    width: 90vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar nav {
+    padding: 24px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 15px;
+    padding: 32px 0px;
+    
+
+}
+.sidebar nav li a {
+text-decoration: none;
+color: black;
+}
+
+.infoContainer {
+    
+    height: 50vh;
+    width: 80vw;
+    margin: 145px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devpic img {
+    height: 50vh;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'League Gothic', sans-serif;
+    height: 50vh;
+    
+}
+
+.hello {
+    font-size: 85px;
+    
+}
+
+.name {
+    font-weight: bold;
+    font-size: 65px;
+    font-family: 'Goldman', cursive;
+   }
+
+.about {
+    font-size: 50px;
+    
+}
+
+.buttons button {
+    margin:25px 5px;
+    padding:5px;
+    border-radius: 25px;
+    background-color: dodgerblue;
+    color:antiquewhite;
+    font-size: 15px;
+    font-weight: bold;
+   }
+.buttons button:hover{
+    color: dodgerblue;
+   background-color:antiquewhite;
+   cursor:pointer;
+}
+.sidebargo  {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    
+}
+.cross{
+    margin-left: 80px;
+    margin-top: 10px;
+    width: 23px;
+}
+.ham{
+    width: 23px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+@media(max-width:1614px){
+   
+}
